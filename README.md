@@ -6,7 +6,7 @@ Este é um projeto fullstack de gestão de participantes em eventos, desenvolvid
 - E-mail
 - Nome evento
 - Telefone
-- Data de Nascimento
+- Data do evento
 
 ---
 
@@ -19,10 +19,10 @@ Este é um projeto fullstack de gestão de participantes em eventos, desenvolvid
 
 ## 🔧 Funcionalidades
 
-- ✅ Listar todos os usuários
-- ✅ Cadastrar novo usuário
-- ✅ Editar usuário existente
-- ✅ Excluir usuário
+- ✅ Listar todos os participantes
+- ✅ Cadastrar novo participante
+- ✅ Editar participante existente
+- ✅ Excluir participante
 - ✅ Validação básica de formulário
 - ✅ Comunicação entre frontend e backend via API REST
 
