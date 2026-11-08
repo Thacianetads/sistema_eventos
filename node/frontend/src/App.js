@@ -17,7 +17,9 @@ const Container = styled.div`
   gap: 10px;
 `;
 
-const Title = styled.h2``;
+const Title = styled.h1`
+  color: #f2f2f2; // ou color: var(--text-title);
+`;
 
 function App() {
   const [users, setUsers] = useState([]);
