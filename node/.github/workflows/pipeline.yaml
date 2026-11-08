@@ -1,0 +1,29 @@
+name: CI/CD Pipeline
+
+# Define quando a pipeline será executada
+on:
+  push:
+    branches: 
+      -main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # Ambiente onde o job vai rodar
+    steps:
+      # 1. Faz o checkout do código do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Configura a versão do Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Instala as dependências do projeto
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Roda os testes (certifique-se de ter o script 'test' no package.json)
+      - name: Run tests
+        run: npm test
