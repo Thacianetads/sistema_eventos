@@ -93,6 +93,9 @@ a API está rodando localmente em:
 
 6.Clique em Send para testar
 
+# Resultado:
+
+<img width="1366" height="768" alt="Captura de tela de 2026-11-08 13-11-56" src="https://github.com/user-attachments/assets/85f43f41-3830-4c3b-b0ec-796ba3c2ba87" />
 
 
 Feito com 💻 por Thaciane
